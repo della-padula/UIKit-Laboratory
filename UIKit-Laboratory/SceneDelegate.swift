@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  UISample
+//  UIKit-Laboratory
 //
 //  Created by denny on 2/11/25.
 //

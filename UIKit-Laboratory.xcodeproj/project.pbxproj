@@ -6,54 +6,59 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B09A7C5B2D5B5EAD00119550 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = B09A7C5A2D5B5EAD00119550 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
-		B085A81A2D5B597200B23394 /* UISample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UISample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B09A7C312D5B5E8200119550 /* UIKit-Laboratory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKit-Laboratory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B085A82C2D5B597400B23394 /* Exceptions for "UISample" folder in "UISample" target */ = {
+		B09A7C432D5B5E8400119550 /* Exceptions for "UIKit-Laboratory" folder in "UIKit-Laboratory" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = B085A8192D5B597200B23394 /* UISample */;
+			target = B09A7C302D5B5E8200119550 /* UIKit-Laboratory */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B085A81C2D5B597200B23394 /* UISample */ = {
+		B09A7C332D5B5E8200119550 /* UIKit-Laboratory */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				B085A82C2D5B597400B23394 /* Exceptions for "UISample" folder in "UISample" target */,
+				B09A7C432D5B5E8400119550 /* Exceptions for "UIKit-Laboratory" folder in "UIKit-Laboratory" target */,
 			);
-			path = UISample;
+			path = "UIKit-Laboratory";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B085A8172D5B597200B23394 /* Frameworks */ = {
+		B09A7C2E2D5B5E8200119550 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B09A7C5B2D5B5EAD00119550 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B085A8112D5B597200B23394 = {
+		B09A7C282D5B5E8200119550 = {
 			isa = PBXGroup;
 			children = (
-				B085A81C2D5B597200B23394 /* UISample */,
-				B085A81B2D5B597200B23394 /* Products */,
+				B09A7C332D5B5E8200119550 /* UIKit-Laboratory */,
+				B09A7C322D5B5E8200119550 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B085A81B2D5B597200B23394 /* Products */ = {
+		B09A7C322D5B5E8200119550 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B085A81A2D5B597200B23394 /* UISample.app */,
+				B09A7C312D5B5E8200119550 /* UIKit-Laboratory.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +66,68 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B085A8192D5B597200B23394 /* UISample */ = {
+		B09A7C302D5B5E8200119550 /* UIKit-Laboratory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B085A82D2D5B597400B23394 /* Build configuration list for PBXNativeTarget "UISample" */;
+			buildConfigurationList = B09A7C442D5B5E8400119550 /* Build configuration list for PBXNativeTarget "UIKit-Laboratory" */;
 			buildPhases = (
-				B085A8162D5B597200B23394 /* Sources */,
-				B085A8172D5B597200B23394 /* Frameworks */,
-				B085A8182D5B597200B23394 /* Resources */,
+				B09A7C2D2D5B5E8200119550 /* Sources */,
+				B09A7C2E2D5B5E8200119550 /* Frameworks */,
+				B09A7C2F2D5B5E8200119550 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B085A81C2D5B597200B23394 /* UISample */,
+				B09A7C332D5B5E8200119550 /* UIKit-Laboratory */,
 			);
-			name = UISample;
+			name = "UIKit-Laboratory";
 			packageProductDependencies = (
+				B09A7C5A2D5B5EAD00119550 /* SnapKit */,
 			);
-			productName = UISample;
-			productReference = B085A81A2D5B597200B23394 /* UISample.app */;
+			productName = "UIKit-Laboratory";
+			productReference = B09A7C312D5B5E8200119550 /* UIKit-Laboratory.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B085A8122D5B597200B23394 /* Project object */ = {
+		B09A7C292D5B5E8200119550 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					B085A8192D5B597200B23394 = {
+					B09A7C302D5B5E8200119550 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = B085A8152D5B597200B23394 /* Build configuration list for PBXProject "UISample" */;
+			buildConfigurationList = B09A7C2C2D5B5E8200119550 /* Build configuration list for PBXProject "UIKit-Laboratory" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B085A8112D5B597200B23394;
+			mainGroup = B09A7C282D5B5E8200119550;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B09A7C592D5B5EAD00119550 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B085A81B2D5B597200B23394 /* Products */;
+			productRefGroup = B09A7C322D5B5E8200119550 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B085A8192D5B597200B23394 /* UISample */,
+				B09A7C302D5B5E8200119550 /* UIKit-Laboratory */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B085A8182D5B597200B23394 /* Resources */ = {
+		B09A7C2F2D5B5E8200119550 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +137,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B085A8162D5B597200B23394 /* Sources */ = {
+		B09A7C2D2D5B5E8200119550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +147,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B085A82E2D5B597400B23394 /* Debug */ = {
+		B09A7C452D5B5E8400119550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -147,7 +156,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UISample/Info.plist;
+				INFOPLIST_FILE = "UIKit-Laboratory/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -158,7 +167,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denny.UISample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denny.UIKit-Laboratory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -166,7 +175,7 @@
 			};
 			name = Debug;
 		};
-		B085A82F2D5B597400B23394 /* Release */ = {
+		B09A7C462D5B5E8400119550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -175,7 +184,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UISample/Info.plist;
+				INFOPLIST_FILE = "UIKit-Laboratory/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -186,7 +195,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.denny.UISample;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.denny.UIKit-Laboratory";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -194,7 +203,7 @@
 			};
 			name = Release;
 		};
-		B085A8302D5B597400B23394 /* Debug */ = {
+		B09A7C472D5B5E8400119550 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -257,7 +266,7 @@
 			};
 			name = Debug;
 		};
-		B085A8312D5B597400B23394 /* Release */ = {
+		B09A7C482D5B5E8400119550 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -316,25 +325,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B085A8152D5B597200B23394 /* Build configuration list for PBXProject "UISample" */ = {
+		B09A7C2C2D5B5E8200119550 /* Build configuration list for PBXProject "UIKit-Laboratory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B085A8302D5B597400B23394 /* Debug */,
-				B085A8312D5B597400B23394 /* Release */,
+				B09A7C472D5B5E8400119550 /* Debug */,
+				B09A7C482D5B5E8400119550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B085A82D2D5B597400B23394 /* Build configuration list for PBXNativeTarget "UISample" */ = {
+		B09A7C442D5B5E8400119550 /* Build configuration list for PBXNativeTarget "UIKit-Laboratory" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B085A82E2D5B597400B23394 /* Debug */,
-				B085A82F2D5B597400B23394 /* Release */,
+				B09A7C452D5B5E8400119550 /* Debug */,
+				B09A7C462D5B5E8400119550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B09A7C592D5B5EAD00119550 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B09A7C5A2D5B5EAD00119550 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B09A7C592D5B5EAD00119550 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = B085A8122D5B597200B23394 /* Project object */;
+	rootObject = B09A7C292D5B5E8200119550 /* Project object */;
 }
